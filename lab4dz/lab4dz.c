@@ -16,6 +16,6 @@ void main()
 	double firstmove = cos(pow(x, 3) + 6) - sin(y - a);
 	double secondmove = log(pow(x, 4)) - 2 * pow(sin(x), 5);
 	double s = firstmove / secondmove;
-	printf("F=:%.f\n", s);
+	printf("F=:%.6f\n", s);
 	return 0;
 }
